@@ -6,9 +6,9 @@ public class Creando {
 
 	public static void main(String[] args) {
 
-		File ruta = new File("C:" + File.separator + "Users" + File.separator + "Juan" + File.separator + "Escritorio"
+		File ruta = new File("C:" + File.separator + "Users" + File.separator + "VARGA" + File.separator + "Desktop"
 				+ File.separator + "java-ser" + File.separator + "pruebaTexto.txt");
-
+//C:\Users\VARGA\Desktop\java-ser
 		String archivoDestino = ruta.getAbsolutePath();
 		// ruta.mkdir();
 

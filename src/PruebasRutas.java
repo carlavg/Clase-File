@@ -4,8 +4,8 @@ public class PruebasRutas {
 
 	public static void main(String[] args) {
 		
-		File ruta=new File("C:" + File.separator + "Users" + File.separator  + File.separator + "Desktop" +File.pathSeparator + "java-ser"); 
-		System.out.println(ruta.getAbsolutePath());
+		File ruta=new File("C:" + File.separator + "Users" + File.separator + "VARGA" + File.separator + "Desktop" +File.separator + "java-ser"); 
+		System.out.println(ruta.getAbsolutePath());  //C:\Users\VARGA\Desktop\java-ser
 		String[] nombres_archivos=ruta.list();
 		
 		for (int i=0;i<nombres_archivos.length;i++) {
